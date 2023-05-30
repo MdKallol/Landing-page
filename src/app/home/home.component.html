@@ -1,0 +1,305 @@
+<body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="pt-2">
+            <img class="h-10" src="../../assets/logo-search-grid-1x.png" alt="" />
+          </div>
+          <!-- Menu Items -->
+          <div class="hidden space-x-6 md:flex">
+            <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+          </div>
+          <!-- Button -->
+          <a class="nav_btn bg-orange-400 hidden md:block" href="#">Get Started</a>
+  
+          <!-- Hamburger Icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#">Pricing</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div
+            class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-12 md:space-y-0">
+            <!-- Left Item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                    Bring everyone together to build better products
+                </h1>
+                <p class="max-w-sm text-center text-gray-600 md:text-left">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eveniet suscipit consequuntur
+                    autem similique, assumenda, sed eligendi quod, neque quo sunt! Aliquid quisquam, at qui harum.
+                </p>
+                <div class="flex justify-center md:justify-start">
+                    <a class="nav_btn bg-orange-400" href="#">Get Started</a>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="md:w-1/2">
+                <img src="../../assets/illustration intro.webp" alt="illustration" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <!--Features Section -->
+    <section id="features">
+        <!--Flex container -->
+        <div class="container flex flex-col px-6 mx-auto mt-10 space-y-12 md:flex-row md:space-y-0">
+            <!-- what's different -->
+            <div class="flex flex-col space-y-12 md:w-1/2">
+                <h1 class="max-w-md 
+                text-4xl 
+                font-bold 
+                text-center 
+                md:text-5xl 
+                md:text-left">
+                    What's difference about to manage
+                </h1>
+                <p class="max-w-sm text-center text-gray-600 md:text-left">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint cupiditate, enim vero dolorem
+                    aspernatur
+                    accusamus veniam vel soluta reprehenderit ipsam.
+                </p>
+            </div>
+            <!-- number list -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+
+                <!-- list item 1 -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- Heading -->
+                    <div class="rounded-l-full bg-orange-200 md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-orange-600">
+                                01
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Track company wide-progress
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Track company wide-progress
+                        </h3>
+                        <p class="text-gray-500">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt unde tempore, quas
+                            aliquam
+                            deleniti perspiciatis consequuntur? Repudiandae id maiores amet.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- list item 2 -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- Heading -->
+                    <div class="rounded-l-full bg-orange-200 md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-orange-600">
+                                02
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Advanced build-in reports
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Evertyhting you need in one place
+                        </h3>
+                        <p class="text-gray-500">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt unde tempore, quas
+                            aliquam
+                            deleniti perspiciatis consequuntur? Repudiandae id maiores amet.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- list item 3 -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- Heading -->
+                    <div class="rounded-l-full bg-orange-200 md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-orange-600">
+                                03
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Track company wide-progress
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Track company wide-progress
+                        </h3>
+                        <p class="text-gray-500">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt unde tempore, quas
+                            aliquam
+                            deleniti perspiciatis consequuntur? Repudiandae id maiores amet.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="max-w-7xl px-5 mx-auto mt-32 text-center">
+            <h2 class="text-4xl font-bold text-center">
+                What's difference about manage?
+            </h2>
+            <!-- Testimonial container-->
+            <div class="flex flex-col space-y-10 items-center mt-24 md:flex-row md:space-x-6 md:space-y-0">
+                <!-- Testimonial 1 -->
+                <div class="flex flex-col items-center w-auto p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="../../assets/pexels-italo-melo-2379005.jpg" class="w-16 -mt-14 rounded-full" alt=""
+                        srcset="">
+                    <h5 class="text-lg font-bold">John Doe</h5>
+                    <p class="text-sm text-black">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quisquam dolorem, qui vitae
+                        illo
+                        aperiam voluptatem veritatis doloremque? Eaque, maxime.
+                    </p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="flex flex-col items-center w-auto p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="../../assets/pexels-italo-melo-2379005.jpg" class="w-16 -mt-14 rounded-full" alt=""
+                        srcset="">
+                    <h5 class="text-lg font-bold">John Doe</h5>
+                    <p class="text-sm text-black">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quisquam dolorem, qui vitae
+                        illo
+                        aperiam voluptatem veritatis doloremque? Eaque, maxime.
+                    </p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="flex flex-col items-center w-auto p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="../../assets/pexels-italo-melo-2379005.jpg" class="w-16 -mt-14 rounded-full" alt=""
+                        srcset="">
+                    <h5 class="text-lg font-bold">John Doe</h5>
+                    <p class="text-sm text-black">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quisquam dolorem, qui vitae
+                        illo
+                        aperiam voluptatem veritatis doloremque? Eaque, maxime.
+                    </p>
+                </div>
+            </div>
+
+            <div class="my-10">
+                <a class="nav_btn bg-orange-400 mt-20 w-20" href="#">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA section -->
+    <section id="cta" class="bg-orange-400">
+        <div
+            class="flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            <!-- Heading -->
+            <h2 class="text-4xl font-bold leading-tight text-center md:text-5xl md:max-w-xl md:text-left">Simplify how
+                your
+                team works today</h2>
+            <div>
+                <a class="nav_btn bg-white mt-20 w-20 shadow-2xl" href="#">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+        class="bg-slate-900  flex flex-col-reverse justify-between space-y-12 md:flex-row md:space-y-0 md:items-start p-4">
+        <div class="flex flex-col md:flex-col-reverse">
+            <!-- Logo and social link container-->
+            <div>
+                <img src="../../assets/logo-search-grid-1x.png" class="w-20" alt="Logo">
+            </div>
+            <!-- Social link container -->
+            <div class="flex justify-center items-center space-x-4">
+                <!-- Link 1 -->
+                <a href="#">
+                    <img src="../../assets/2021_Facebook_icon.svg.webp" class="w-10" alt="">
+                </a>
+
+                <!-- Link 2 -->
+                <a href="#">
+                    <img src="../../assets/YouTube_full-color_icon_(2017).svg.webp" class="w-10" alt="">
+                </a>
+
+                <!-- Link 3 -->
+                <a href="#">
+                    <img src="../../assets/2021_Facebook_icon.svg.webp" class="w-10" alt="">
+                </a>
+
+                <!-- Link 1 -->
+                <a href="#">
+                    <img src="../../assets/YouTube_full-color_icon_(2017).svg.webp" class="w-10" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- List container -->
+        <div class="flex justify-around space-x-32">
+            <div class="flex flex-col space-y-3 text-white">
+                <a href="#" class="hover:text-orange-600">Home</a>
+                <a href="#" class="hover:text-orange-600">Pricing</a>
+                <a href="#" class="hover:text-orange-600">Product</a>
+                <a href="#" class="hover:text-orange-600">About</a>
+            </div>
+            <div class="flex flex-col space-y-3 text-white">
+                <a href="#" class="hover:text-orange-600">Careers</a>
+                <a href="#" class="hover:text-orange-600">Community</a>
+                <a href="#" class="hover:text-orange-600">Privacy Policy</a>
+            </div>
+        </div>
+        <!-- Input Container -->
+        <div class="flex flex-col justify-between space-y-10">
+            <form>
+                <div class="flex flex-col space-y-6 md:flex-row md:space-x-3">
+                    <input type="text" class="flex-1 px-4 rounded-full justify-between"
+                        placeholder="updated in your inbox">
+                    <button
+                        class="px-6 py-2 text-white rounded-full bg-orange-600 hover:bg-orange-700 focus:outline-none">
+                        Go
+                    </button>
+                </div>
+            </form>
+            <div class="hidden text-white md:block">
+                copyright &copy; 2022 all right reseved
+            </div>
+        </div>
+    </footer>
+
+</body>
